@@ -1,0 +1,27 @@
+/* dla całej strony używa sie gwizdki ale pan ma zaznaczone body to jego też użyje */
+body{
+    background-color: black;
+    font-family: Georgia;
+    font-size: 16px;
+    color: white;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+/* akapity są czytelne nie potrzebują dodatkowej opieki :) */
+P{
+    margin-top: 30px;
+    line-height: 20px;
+}
+ul{
+    list-style-type:circle;
+    padding: 25px;
+}
+.klasa{
+    color: wheat;
+    font-weight: bold;
+}
+:hover>ul {
+    color: red;
+}
